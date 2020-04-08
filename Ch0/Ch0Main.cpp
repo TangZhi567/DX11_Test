@@ -6,7 +6,7 @@ using namespace Ch0;
 using namespace Windows::Foundation;
 using namespace Windows::System::Threading;
 using namespace Concurrency;
-
+// 测试hda
 // 加载应用程序时加载并初始化应用程序资产。
 Ch0Main::Ch0Main(const std::shared_ptr<DX::DeviceResources>& deviceResources) :
 	m_deviceResources(deviceResources)
