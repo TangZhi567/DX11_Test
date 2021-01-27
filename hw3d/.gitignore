@@ -1,0 +1,26 @@
+# 注释专用
+
+# 用户配置
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio 配置
+.vs/
+*.psess
+*.vsp
+*.vspx
+*.sap
