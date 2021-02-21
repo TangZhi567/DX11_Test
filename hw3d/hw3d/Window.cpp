@@ -12,6 +12,7 @@ Window::WindowClass::WindowClass() noexcept
 	:
 	hInst(GetModuleHandle(nullptr))
 {
+	static
 	WNDCLASSEX wc = { 0 };
 	wc.cbSize = sizeof(wc);
 	wc.style = CS_OWNDC;
@@ -99,13 +100,13 @@ Window::Window(int width, int height, const char* name)
 	//}
 }
 
-/*
+
 Window::~Window()
 {
 	//ImGui_ImplWin32_Shutdown();
 	DestroyWindow(hWnd);
 }
-
+/*
 void Window::SetTitle(const std::string& title)
 {
 	if (SetWindowText(hWnd, title.c_str()) == 0)
